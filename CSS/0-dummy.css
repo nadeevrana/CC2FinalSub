@@ -1,0 +1,53 @@
+/* (X) NOT IMPORTANT - COSMETICS */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.note, .bidWrap {
+  width: 300px;
+  padding: 15px;
+}
+.note {
+  margin-bottom: 10px;
+  border: 1px solid #edc5c5;
+  background: #ffe5e5;
+}
+.bidWrap {
+  border: 1px solid #e5e5e5;
+  background: #f5f5f5;
+}
+.bidImg {
+  display: block;
+  height: 200px;
+  margin: 0 auto 20px auto;
+}
+.bidName {
+  font-weight: 700;
+  font-size: 20px;
+}
+.bidDesc, .bidHigh {
+  font-size: 14px;
+}
+.bidDesc, .bidHigh, .bidAmt { margin-top: 10px; }
+.bidDesc {
+  color: #484848;
+}
+.bidHigh {
+  font-weight: 700;
+  color: #f95353;
+}
+.bidAmt {
+  display: block;
+}
+.bidAmt input[type=number] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 0;
+}
+.bidAmt input[type=submit] {
+  padding: 5px 5px;
+  color: #fff;
+  background: #4b7dc7;
+  border: 0;
+  cursor: pointer;
+}
